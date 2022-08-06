@@ -8,7 +8,7 @@ A multi-threaded, micro-service based application that syncs clipboard contents 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/29837264/177219032-f0124126-3d57-4ecd-a3ac-92febf79000e.png">
 
 
-## Componenets
+## Components
 
 **REST Client:** Listener that captures copy and paste requests and forwards the same to the server. <br /> On copy - Clipboard contents are copied and transferred to the server. <br /> On Paste - Copied content is fetched from the server.<br />
 **REST Server** Accepts requests from client to store copied content or transfer the copied contents in the cache<br />
